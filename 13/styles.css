@@ -1,0 +1,29 @@
+.todo-item {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #666;
+  border-radius: 8px
+};
+
+.form {
+  justify-items: flex-start;
+  margin-bottom: 20px; 
+  width: 400px; 
+  height: 100%;
+}
+
+.input {
+  margin: 0px; 
+  width: auto;
+  height: 100%;
+}
+
+.btn {
+  width: auto;
+  height: 100%;
+}
+
+.complete {
+  color: #999;
+  text-decoration: line-through
+}
