@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 800px;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid #3f2aff;
+  margin-top: 15px;
+}
+
+button {
+  padding: 5px 15px;
+  color: #333;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid #3f2aff;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px 0px;
+  border: 1px solid #3f2aff;
+}
